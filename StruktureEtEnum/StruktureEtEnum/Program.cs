@@ -129,74 +129,7 @@ namespace StruktureEtEnum
             Driver
         }
 
-       
-struct Student
-        {
-            public string name;
-            public string group;
-            public double rating;
-            public double benefit;
-            public Gender genders;
-            public Study studyTime;
-
-            public Student(string name,string group,double rating,double benefit,Gender genders,Study studyTime)
-            {
-                this.name=name;
-                this.group=group;
-                this.rating=rating;
-                this.benefit=benefit;
-                this.genders=genders;
-                this.studyTime=studyTime;
-        }
-            /*
-2.	Для получения места в общежитии формируется список студентов, 
-который включает Ф.И.О. студента, группу, средний балл, доход на члена семьи, пол (перечисление),
-форма обучения(перечисление). 
-
-           Общежитие в первую очередь предоставляется тем, 
-у кого доход на члена семьи меньше двух минимальных зарплат, затем остальным в порядке 
-уменьшения среднего балла. Вывести список очередности предоставления мест в общежитии.
-*/
-           /* public void Dormitory()
-            {
-                List<Student> students = new List<Student>();
-                List<Student> st2 = new List<Student>();
-                double MZP = 24459.0;
-                if (benefit < (MZP * 2))
-                {
-                    students.Add();
-                }
-                else
-                {
-                    st2.Add(s);
-                }
-                students.Sort();
-                st2.Sort();
-                foreach(var i in students)
-                {
-                    Console.WriteLine(i);
-                }
-                Console.WriteLine();
-                foreach (var i in st2)
-                {
-                    Console.WriteLine(i);
-                }
-
-                Console.WriteLine();
-            }*/
-        }
-      enum Gender
-        {
-            masculine,
-            female
-}
-
-      enum Study
-        {
-            fullTime,
-            distance,
-
-        }
+  
         static void Main(string[] args)
         {
          
@@ -207,7 +140,7 @@ struct Student
 4.	Создайте класс Кошка. У кошки будет свойство «уровень сытости» и метод «съесть что-то».
 Создайте перечисление Еда (рыба, мышь…). Каждый вид еды должен по-разному изменять уровень сытости.
 */
-            /*     Console.WriteLine("Покорми кота!");
+               Console.WriteLine("Покорми кота!");
 
                  Console.WriteLine("Сегодня на ужин");
                  Console.WriteLine();
@@ -245,7 +178,7 @@ struct Student
                  }
 
 
-                 Console.WriteLine();*/
+                 Console.WriteLine();
 
 
             #endregion
@@ -258,7 +191,7 @@ b.	поля vacancy типа Vacancies;
 c.	поля зарплата целого типа;
 d.	поля дата приема на работу типа int[3].
 */
-            /*
+            
              ConsoleWriteLie("Создать структуру «Employee» ..");
                         Employee empoie;
                         empoie.name = "Nicolas";
@@ -271,13 +204,13 @@ d.	поля дата приема на работу типа int[3].
 
                         empoie.print();
                         Console.WriteLine();
-                        */
+                       
             #endregion
 
             #region
             // 3.Создать перечисление должностей Vacancies { Manager, Boss, Clerk, Salesman, и т.д.}
 
-            /*    Console.WriteLine("Создать перечисление должностей Vacancies..."); 
+             Console.WriteLine("Создать перечисление должностей Vacancies..."); 
                  Vacancies jobs;
                  for (jobs = Vacancies.Boss; jobs <= Vacancies.Driver; jobs++)
                  {
@@ -285,7 +218,7 @@ d.	поля дата приема на работу типа int[3].
                  }
                  Console.WriteLine();
 
-         */
+       
 
             #endregion
 
